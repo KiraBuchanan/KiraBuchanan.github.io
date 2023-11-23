@@ -1,0 +1,108 @@
+body {
+  font-family: 'Arial', sans-serif;  
+  background-color: #b8d5e0;
+  color: #1a1f68;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #2d4586;
+  text-align: center;
+  font-size: 36px;
+}
+
+h2 {
+  color: #2d4586;
+}
+
+p {
+  color: #001f3f;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    border: 1px solid #001f3f;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #001f3f;
+    padding: 8px;
+    text-align: left;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#contents {
+    background-color: #f4f4f4; /* Light grey background */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Some padding around the links */
+    margin-bottom: 20px; /* Space below the navigation bar */
+}
+
+#contents ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for horizontal layout */
+    flex-wrap: wrap; /* Allow wrapping for small screens */
+    gap: 10px; /* Gap between items */
+}
+
+#contents ul li {
+    flex: 1; /* Each item can grow */
+}
+
+#contents ul li a {
+    display: block; /* Make the links fill the list item */
+    text-decoration: none; /* No underline */
+    color: #333; /* Dark text color for contrast */
+    background-color: #e7e7e7; /* Slightly darker background for the links */
+    padding: 8px 16px; /* Padding inside the links */
+    border-radius: 5px; /* Rounded corners for the links */
+    text-align: center; /* Center text */
+    transition: background-color 0.3s; /* Smooth background color change on hover */
+}
+
+#contents ul li a:hover {
+    background-color: #ddd; /* Darker background on hover */
+}
+
+#main-container {
+    border: 2px solid #007bff; 
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div{
+	background-color: white;
+	color: black;
+         padding: 20px;
+}
+
+footer {
+    background-color: #2d4586;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
