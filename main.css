@@ -83,6 +83,19 @@ img {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+.tools-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    flex-wrap: wrap; /* Wrap items to next line if not enough space */
+    gap: 20px; /* Optional: space between iframes */
+    margin: 0 auto; /* Center the container in the page */
+}
+
+iframe {
+    border: none; 
+}
+
 a {
     color: #007bff;
     text-decoration: none;
@@ -91,6 +104,17 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.image-row img {
+    width: 30%; /* Adjust the width as necessary */
+    margin: 0 10px;
 }
 
 div{
