@@ -41,38 +41,38 @@ img {
 }
 
 #contents {
-    background-color: #f4f4f4; /* Light grey background */
-    border-radius: 5px; /* Rounded corners */
-    padding: 10px; /* Some padding around the links */
-    margin-bottom: 20px; /* Space below the navigation bar */
+    background-color: #f4f4f4; 
+    border-radius: 5px; 
+    padding: 10px; 
+    margin-bottom: 20px; 
 }
 
 #contents ul {
-    list-style-type: none; /* Remove default list styling */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-    display: flex; /* Use flexbox for horizontal layout */
-    flex-wrap: wrap; /* Allow wrapping for small screens */
-    gap: 10px; /* Gap between items */
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
 }
 
 #contents ul li {
-    flex: 1; /* Each item can grow */
+    flex: 1; 
 }
 
 #contents ul li a {
-    display: block; /* Make the links fill the list item */
-    text-decoration: none; /* No underline */
-    color: #333; /* Dark text color for contrast */
-    background-color: #e7e7e7; /* Slightly darker background for the links */
-    padding: 8px 16px; /* Padding inside the links */
-    border-radius: 5px; /* Rounded corners for the links */
-    text-align: center; /* Center text */
-    transition: background-color 0.3s; /* Smooth background color change on hover */
+    display: block; 
+    text-decoration: none; 
+    color: #333; 
+    background-color: #e7e7e7; 
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s; 
 }
 
 #contents ul li a:hover {
-    background-color: #ddd; /* Darker background on hover */
+    background-color: #ddd;
 }
 
 #main-container {
@@ -84,12 +84,12 @@ img {
 }
 
 .tools-container {
-    display: flex; /* Use flexbox for layout */
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
-    flex-wrap: wrap; /* Wrap items to next line if not enough space */
-    gap: 20px; /* Optional: space between iframes */
-    margin: 0 auto; /* Center the container in the page */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+    margin: 0 auto;
 }
 
 iframe {
@@ -113,8 +113,13 @@ a:hover {
 }
 
 .image-row img {
-    width: 30%; /* Adjust the width as necessary */
+    width: 30%; 
     margin: 0 10px;
+}
+
+video {
+    width: 50vw;
+    height: auto; 
 }
 
 div{
